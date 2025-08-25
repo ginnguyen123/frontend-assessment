@@ -1,0 +1,1 @@
+import a from"./DJXvTZuu.js";import{J as o,x as r,B as n,K as s,q as _,y as c}from"./B6XmGCzA.js";import"./Bd8O7Jh_.js";const x={__name:"index",async setup(m){let e,t;return[e,t]=o(()=>_("/home")),await e,t(),(i,p)=>(c(),r("div",null,[n(s(a))]))}};export{x as default};

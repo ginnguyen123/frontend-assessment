@@ -1,0 +1,1 @@
+import{_ as s,x as e,y as n,A as c,q as p}from"./B6XmGCzA.js";const r={__name:"Button",props:["title","path"],setup(a){const t=a,o=()=>{t.path&&p(t.path)};return(_,i)=>(n(),e("div",{class:"button",onClick:o},c(t.title),1))}},f=s(r,[["__scopeId","data-v-ca02faf5"]]);export{f as B};

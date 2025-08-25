@@ -1,0 +1,4 @@
+const CardItem_vue_vue_type_style_index_0_scoped_b62f690d_lang = ".card[data-v-b62f690d]{border-radius:8px;box-sizing:border-box;gap:16px;height:500px;justify-content:flex-start;padding:16px;width:80%}.card img[data-v-b62f690d]{border-radius:16px;max-height:250px;max-width:300px;width:100%}.card__read-more[data-v-b62f690d]{border:3px solid #000;border-radius:32px;padding:8px}.card__read-more span[data-v-b62f690d]{color:#000;font-size:12px;font-weight:900;text-align:center}.card__read-more[data-v-b62f690d]:hover{border:2px solid aqua;box-shadow:0 4px 10px #9bf1f1;cursor:pointer}.card__read-more:hover span[data-v-b62f690d]{color:#0ff}.card__text[data-v-b62f690d]{height:60%;justify-content:flex-start;overflow:hidden;text-overflow:ellipsis}.card__text p[data-v-b62f690d]{font-size:16px;margin-top:0;text-align:center}";
+
+export { CardItem_vue_vue_type_style_index_0_scoped_b62f690d_lang as C };
+//# sourceMappingURL=CardItem-styles-1.mjs-B4Eodu2a.mjs.map

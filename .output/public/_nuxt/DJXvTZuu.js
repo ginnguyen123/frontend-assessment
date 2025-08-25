@@ -1,0 +1,1 @@
+import{B as e}from"./Bd8O7Jh_.js";import{_ as a,x as o,B as t,y as s}from"./B6XmGCzA.js";const c={class:"home-container"},p={__name:"home",setup(_){return(m,r)=>(s(),o("div",c,[t(e,{title:"Example 1",path:"/example-1"}),t(e,{title:"Example 2",path:"/example-2"})]))}},i=a(p,[["__scopeId","data-v-641ef4c9"]]);export{i as default};
