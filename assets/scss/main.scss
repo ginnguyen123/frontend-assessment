@@ -1,0 +1,33 @@
+@use './variables.scss' as *;
+
+html,body {
+  font-family: $font-style;
+  font-size: $size-text;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 64px;
+}
+
+.text {
+  font-size: 24px;
+  color: $color-dark;
+}
+
+.color-white {
+  color: $color-white;
+}
+
+.color-dark {
+  color: $color-dark;
+}
+
+.dc-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
