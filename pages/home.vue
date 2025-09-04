@@ -1,7 +1,7 @@
 <template>
     <div class="home-container">
-        <Button title="Example 1" path="/example-1"></Button>
-        <Button title="Example 2" path="/example-2"></Button>
+        <Button title="Example 1" path="frontend-assessment/example-1"></Button>
+        <Button title="Example 2" path="frontend-assessment/example-2"></Button>
     </div>
 </template>
 
