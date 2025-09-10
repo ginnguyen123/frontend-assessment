@@ -379,12 +379,12 @@ const _routes = [
   {
     name: "home",
     path: "/home",
-    component: () => import("./_nuxt/home-DMkiNTjx.js")
+    component: () => import("./_nuxt/home-qjzgSWEf.js")
   },
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-CgJAWibb.js")
+    component: () => import("./_nuxt/index-BdHIuGvI.js")
   },
   {
     name: "example-1",

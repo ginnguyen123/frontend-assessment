@@ -1,11 +1,11 @@
 export default {
-  "_B14pncpS.js": {
+  "_BQS7kmH1.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B14pncpS.js",
-    "name": "nuxt-link",
+    "file": "BQS7kmH1.js",
+    "name": "v3",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -17,26 +17,15 @@ export default {
     "file": "Button.ONoT07kS.css",
     "src": "_Button.ONoT07kS.css"
   },
-  "_LHrHB25T.js": {
+  "_Ccjz8FQo.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "LHrHB25T.js",
-    "name": "v3",
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.js"
-    ]
-  },
-  "_Ras1zflG.js": {
-    "resourceType": "script",
-    "module": true,
-    "prefetch": true,
-    "preload": true,
-    "file": "Ras1zflG.js",
+    "file": "Ccjz8FQo.js",
     "name": "Button",
     "imports": [
-      "_B14pncpS.js",
+      "_tPfsiHCw.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": [
@@ -49,19 +38,30 @@ export default {
     "prefetch": true,
     "preload": true
   },
+  "_tPfsiHCw.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "tPfsiHCw.js",
+    "name": "nuxt-link",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
   "node_modules/nuxt/dist/app/components/error-404.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "C-IYsFha.js",
+    "file": "XX0zvpIb.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_B14pncpS.js",
+      "_tPfsiHCw.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_LHrHB25T.js"
+      "_BQS7kmH1.js"
     ],
     "css": []
   },
@@ -76,13 +76,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "_ef6TQ8b.js",
+    "file": "94_KawxP.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_LHrHB25T.js"
+      "_BQS7kmH1.js"
     ],
     "css": []
   },
@@ -97,7 +97,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "C84T2CDs.js",
+    "file": "Cjc4l2RP.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -112,14 +112,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CL-iO9d6.js",
+    "file": "EB626o_6.js",
     "name": "example-1",
     "src": "pages/example-1.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_Ras1zflG.js",
-      "_B14pncpS.js"
+      "_Ccjz8FQo.js",
+      "_tPfsiHCw.js"
     ],
     "css": []
   },
@@ -134,7 +134,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BZMABxsT.js",
+    "file": "DqNEgy-T.js",
     "name": "example-2",
     "src": "pages/example-2.vue",
     "isDynamicEntry": true,
@@ -154,19 +154,19 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "C1fT5nkW.js",
+    "file": "B47H8DqU.js",
     "name": "home",
     "src": "pages/home.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Ras1zflG.js",
+      "_Ccjz8FQo.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_B14pncpS.js"
+      "_tPfsiHCw.js"
     ],
     "css": []
   },
-  "home.VjJOcI_p.css": {
-    "file": "home.VjJOcI_p.css",
+  "home.DTCuSFyH.css": {
+    "file": "home.DTCuSFyH.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -176,15 +176,15 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "D6cFKY59.js",
+    "file": "BtvSo1YW.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "pages/home.vue",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Ras1zflG.js",
-      "_B14pncpS.js"
+      "_Ccjz8FQo.js",
+      "_tPfsiHCw.js"
     ]
   }
 }

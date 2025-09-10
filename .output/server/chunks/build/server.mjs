@@ -387,12 +387,12 @@ const _routes = [
   {
     name: "home",
     path: "/home",
-    component: () => import('./home-DMkiNTjx.mjs')
+    component: () => import('./home-qjzgSWEf.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-CgJAWibb.mjs')
+    component: () => import('./index-BdHIuGvI.mjs')
   },
   {
     name: "example-1",
