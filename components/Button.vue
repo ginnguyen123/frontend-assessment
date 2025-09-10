@@ -1,12 +1,9 @@
 <template>
-    <div class="button">
-        {{ props.title }}
-        <!-- <NuxtLink  v-if="props.path" :to="props.path">{{ props.title }}</NuxtLink> -->
-    </div>
+    <NuxtLink class="button"  v-if="props.path" :to="props.path">{{ props.title }}</NuxtLink>
 </template>
 
 <script setup lang="ts">
-// import { NuxtLink } from '#components';
+import { NuxtLink } from '#components';
     const props = defineProps(["title", "path"])
 </script>
 
@@ -25,6 +22,9 @@
         border-radius: 32px; 
         transition: background-color 0.3s;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        a {
+         
+        }
     }
 
     .button:hover {

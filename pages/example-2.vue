@@ -23,17 +23,17 @@
                 ]"
                 v-for="value in data">
                 <h1>{{ value.title }}</h1>
-                <div v-html="value.content"></div>
+                <div v-html="value.content">
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
-import datajs from '~/data.json';
+import data from '~/data.json';
 
 const key = ref()
-const data = ref<any>([])
 
 const onChoiceTab = (title:string) => {
     if(title){
@@ -42,9 +42,8 @@ const onChoiceTab = (title:string) => {
 }
 
 onMounted(() => {
-    data.value = [...datajs]    
-    if(datajs && datajs.length > 0){
-        key.value = datajs[0].title.trim()
+    if(data && data.length > 0){
+        key.value = data[0].title.trim()
     }
 })
 

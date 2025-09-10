@@ -4,10 +4,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     rootId: 'nuxt-example',
-    rootTag: 'main'
+    rootTag: 'main',
+    baseURL: '/frontend-assessment'
   },
   devServer: {
-    host: 'localhost',
+    host: 'localhost/frontend-assessment',
     port: 3000
   },
   css: [
