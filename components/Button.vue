@@ -1,10 +1,11 @@
 <template>
     <div class="button" @click="onPage">
         {{ props.title }}
+        
     </div>
 </template>
 
-<script setup lang="js">
+<script setup lang="ts">
     const props = defineProps(["title", "path"])
 
     const onPage = () => {
@@ -12,7 +13,7 @@
     }
 </script>
 
-<style scoped lang="css">
+<style scoped lang="scss">
     .button {
         background-color: #c23564; 
         border: none; 

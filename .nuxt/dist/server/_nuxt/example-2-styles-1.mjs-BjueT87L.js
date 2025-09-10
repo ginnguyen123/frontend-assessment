@@ -1,5 +1,0 @@
-const example2_vue_vue_type_style_index_0_scoped_439cec21_lang = ".home-container[data-v-439cec21]{max-width:1920px;width:100%}.example-2[data-v-439cec21]{justify-content:center;margin:16px;padding:16px}.example-2 .example-2__tab-header[data-v-439cec21]{border:.5px solid #d6cccc;border-radius:32px;box-sizing:border-box;flex-direction:row!important;height:50px;padding:8px;position:relative}.example-2__tab-body__detail[data-v-439cec21]{display:none}.example-2__tab-body__detail>h1[data-v-439cec21],.example-2__tab-header__item[data-v-439cec21]{color:#c23564;text-align:center}.example-2__tab-header__item[data-v-439cec21]{border-radius:24px;box-sizing:border-box;cursor:pointer;opacity:.6;padding:10px;transition:all .5s ease}.example-2__tab-header__item[data-v-439cec21]:hover{background-color:#c235640d;border-color:#c235641a;opacity:1}.example-2__tab-header__item.active[data-v-439cec21]{background-color:#c235640d;font-weight:600;opacity:1}.example-2__tab-body__detail.active[data-v-439cec21]{display:block}";
-export {
-  example2_vue_vue_type_style_index_0_scoped_439cec21_lang as default
-};
-//# sourceMappingURL=example-2-styles-1.mjs-BjueT87L.js.map

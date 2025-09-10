@@ -387,22 +387,22 @@ const _routes = [
   {
     name: "home",
     path: "/home",
-    component: () => import('./home-1tYyhnmG.mjs')
+    component: () => import('./home-CVUf9QQ3.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-DjrT3Vek.mjs')
+    component: () => import('./index-BPo2PCAC.mjs')
   },
   {
     name: "example-1",
     path: "/example-1",
-    component: () => import('./example-1-BUu1ZbuL.mjs')
+    component: () => import('./example-1-vQPT8unh.mjs')
   },
   {
     name: "example-2",
     path: "/example-2",
-    component: () => import('./example-2-C36wEfgG.mjs')
+    component: () => import('./example-2-CpAzP8w_.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {

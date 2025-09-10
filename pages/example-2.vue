@@ -30,9 +30,10 @@
 </template>
 
 <script setup lang="ts">
-import data from '~/data.json';
+import datajs from '~/data.json';
 
 const key = ref()
+const data = ref<any>([])
 
 const onChoiceTab = (title:string) => {
     if(title){
@@ -41,8 +42,9 @@ const onChoiceTab = (title:string) => {
 }
 
 onMounted(() => {
-    if(data && data.length > 0){
-        key.value = data[0].title.trim()
+    data.value = [...datajs]    
+    if(datajs && datajs.length > 0){
+        key.value = datajs[0].title.trim()
     }
 })
 
