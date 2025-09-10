@@ -387,17 +387,17 @@ const _routes = [
   {
     name: "home",
     path: "/home",
-    component: () => import('./home-Bz9kl2fd.mjs')
+    component: () => import('./home-DMkiNTjx.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-x74vDXUA.mjs')
+    component: () => import('./index-CgJAWibb.mjs')
   },
   {
     name: "example-1",
     path: "/example-1",
-    component: () => import('./example-1-atVh7wEo.mjs')
+    component: () => import('./example-1-BUwioetN.mjs')
   },
   {
     name: "example-2",

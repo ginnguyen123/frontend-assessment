@@ -1,7 +1,7 @@
 <template>
     <div class="button">
         {{ props.title }}
-        <nuxt-link v-if="props.path" :to="props.path"></nuxt-link>
+        <NuxtLink v-if="props.path" :to="props.path"></NuxtLink>
     </div>
 </template>
 
