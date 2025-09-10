@@ -1,12 +1,12 @@
 <template>
     <div class="button">
         {{ props.title }}
-        <NuxtLink v-if="props.path" :to="props.path"></NuxtLink>
+        <!-- <NuxtLink  v-if="props.path" :to="props.path">{{ props.title }}</NuxtLink> -->
     </div>
 </template>
 
 <script setup lang="ts">
-import { NuxtLink } from '#components';
+// import { NuxtLink } from '#components';
     const props = defineProps(["title", "path"])
 </script>
 

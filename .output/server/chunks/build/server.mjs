@@ -387,17 +387,17 @@ const _routes = [
   {
     name: "home",
     path: "/home",
-    component: () => import('./home-qjzgSWEf.mjs')
+    component: () => import('./home-CE-_b63B.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-BdHIuGvI.mjs')
+    component: () => import('./index-DEApFhvV.mjs')
   },
   {
     name: "example-1",
     path: "/example-1",
-    component: () => import('./example-1-BUwioetN.mjs')
+    component: () => import('./example-1-N1p3yhjN.mjs')
   },
   {
     name: "example-2",
@@ -1015,7 +1015,7 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import('./error-404-mexxq51o.mjs'));
+    const _Error404 = defineAsyncComponent(() => import('./error-404-Wt46S6_m.mjs'));
     const _Error = defineAsyncComponent(() => import('./error-500-CE4nwG8c.mjs'));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
