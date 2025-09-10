@@ -379,17 +379,17 @@ const _routes = [
   {
     name: "home",
     path: "/home",
-    component: () => import("./_nuxt/home-CVUf9QQ3.js")
+    component: () => import("./_nuxt/home-Bz9kl2fd.js")
   },
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-BPo2PCAC.js")
+    component: () => import("./_nuxt/index-x74vDXUA.js")
   },
   {
     name: "example-1",
     path: "/example-1",
-    component: () => import("./_nuxt/example-1-vQPT8unh.js")
+    component: () => import("./_nuxt/example-1-atVh7wEo.js")
   },
   {
     name: "example-2",
@@ -1007,7 +1007,7 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-Wt46S6_m.js"));
+    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-mexxq51o.js"));
     const _Error = defineAsyncComponent(() => import("./_nuxt/error-500-CE4nwG8c.js"));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {

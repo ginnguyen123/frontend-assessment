@@ -1,16 +1,13 @@
 <template>
-    <div class="button" @click="onPage">
+    <div class="button">
         {{ props.title }}
-        
+        <nuxt-link v-if="props.path" :to="props.path"></nuxt-link>
     </div>
 </template>
 
 <script setup lang="ts">
+import { NuxtLink } from '#components';
     const props = defineProps(["title", "path"])
-
-    const onPage = () => {
-        if(props.path) navigateTo(props.path)
-    }
 </script>
 
 <style scoped lang="scss">
